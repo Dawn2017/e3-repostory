@@ -16,7 +16,7 @@ public class ItemController {
     @ResponseBody//将返回值对象转换为json格式,并在当前页面显示
 	public TbItem getItemByid(@PathVariable long id){
     	TbItem tbItem = itemService.getitemByid(id);
-    	System.out.println("hello,world,java-------------------");
+    	System.out.println("hello,world,java,xiaohua-------------------");
 		return tbItem;
 	}
 }
